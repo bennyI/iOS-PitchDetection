@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18FDC7011E570509004688A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FDC7001E570509004688A8 /* main.m */; };
+		18FDC7041E570509004688A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FDC7031E570509004688A8 /* AppDelegate.m */; };
+		18FDC7071E570509004688A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FDC7061E570509004688A8 /* ViewController.m */; };
+		18FDC70A1E570509004688A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FDC7081E570509004688A8 /* Main.storyboard */; };
+		18FDC70C1E570509004688A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FDC70B1E570509004688A8 /* Assets.xcassets */; };
+		18FDC70F1E570509004688A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FDC70D1E570509004688A8 /* LaunchScreen.storyboard */; };
+		18FDC71A1E57050A004688A8 /* PitchDetectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FDC7191E57050A004688A8 /* PitchDetectionTests.m */; };
+		18FDC7251E57050A004688A8 /* PitchDetectionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FDC7241E57050A004688A8 /* PitchDetectionUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18FDC7161E57050A004688A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18FDC6F41E570509004688A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18FDC6FB1E570509004688A8;
+			remoteInfo = PitchDetection;
+		};
+		18FDC7211E57050A004688A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18FDC6F41E570509004688A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18FDC6FB1E570509004688A8;
+			remoteInfo = PitchDetection;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18FDC6FC1E570509004688A8 /* PitchDetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PitchDetection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FDC7001E570509004688A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18FDC7021E570509004688A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18FDC7031E570509004688A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18FDC7051E570509004688A8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18FDC7061E570509004688A8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18FDC7091E570509004688A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18FDC70B1E570509004688A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18FDC70E1E570509004688A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18FDC7101E570509004688A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18FDC7151E57050A004688A8 /* PitchDetectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PitchDetectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FDC7191E57050A004688A8 /* PitchDetectionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PitchDetectionTests.m; sourceTree = "<group>"; };
+		18FDC71B1E57050A004688A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18FDC7201E57050A004688A8 /* PitchDetectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PitchDetectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FDC7241E57050A004688A8 /* PitchDetectionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PitchDetectionUITests.m; sourceTree = "<group>"; };
+		18FDC7261E57050A004688A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18FDC6F91E570509004688A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FDC7121E57050A004688A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FDC71D1E57050A004688A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18FDC6F31E570508004688A8 = {
+			isa = PBXGroup;
+			children = (
+				18FDC6FE1E570509004688A8 /* PitchDetection */,
+				18FDC7181E57050A004688A8 /* PitchDetectionTests */,
+				18FDC7231E57050A004688A8 /* PitchDetectionUITests */,
+				18FDC6FD1E570509004688A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18FDC6FD1E570509004688A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18FDC6FC1E570509004688A8 /* PitchDetection.app */,
+				18FDC7151E57050A004688A8 /* PitchDetectionTests.xctest */,
+				18FDC7201E57050A004688A8 /* PitchDetectionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18FDC6FE1E570509004688A8 /* PitchDetection */ = {
+			isa = PBXGroup;
+			children = (
+				18FDC7021E570509004688A8 /* AppDelegate.h */,
+				18FDC7031E570509004688A8 /* AppDelegate.m */,
+				18FDC7051E570509004688A8 /* ViewController.h */,
+				18FDC7061E570509004688A8 /* ViewController.m */,
+				18FDC7081E570509004688A8 /* Main.storyboard */,
+				18FDC70B1E570509004688A8 /* Assets.xcassets */,
+				18FDC70D1E570509004688A8 /* LaunchScreen.storyboard */,
+				18FDC7101E570509004688A8 /* Info.plist */,
+				18FDC6FF1E570509004688A8 /* Supporting Files */,
+			);
+			path = PitchDetection;
+			sourceTree = "<group>";
+		};
+		18FDC6FF1E570509004688A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18FDC7001E570509004688A8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18FDC7181E57050A004688A8 /* PitchDetectionTests */ = {
+			isa = PBXGroup;
+			children = (
+				18FDC7191E57050A004688A8 /* PitchDetectionTests.m */,
+				18FDC71B1E57050A004688A8 /* Info.plist */,
+			);
+			path = PitchDetectionTests;
+			sourceTree = "<group>";
+		};
+		18FDC7231E57050A004688A8 /* PitchDetectionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18FDC7241E57050A004688A8 /* PitchDetectionUITests.m */,
+				18FDC7261E57050A004688A8 /* Info.plist */,
+			);
+			path = PitchDetectionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18FDC6FB1E570509004688A8 /* PitchDetection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FDC7291E57050A004688A8 /* Build configuration list for PBXNativeTarget "PitchDetection" */;
+			buildPhases = (
+				18FDC6F81E570509004688A8 /* Sources */,
+				18FDC6F91E570509004688A8 /* Frameworks */,
+				18FDC6FA1E570509004688A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PitchDetection;
+			productName = PitchDetection;
+			productReference = 18FDC6FC1E570509004688A8 /* PitchDetection.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18FDC7141E57050A004688A8 /* PitchDetectionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FDC72C1E57050A004688A8 /* Build configuration list for PBXNativeTarget "PitchDetectionTests" */;
+			buildPhases = (
+				18FDC7111E57050A004688A8 /* Sources */,
+				18FDC7121E57050A004688A8 /* Frameworks */,
+				18FDC7131E57050A004688A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18FDC7171E57050A004688A8 /* PBXTargetDependency */,
+			);
+			name = PitchDetectionTests;
+			productName = PitchDetectionTests;
+			productReference = 18FDC7151E57050A004688A8 /* PitchDetectionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18FDC71F1E57050A004688A8 /* PitchDetectionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FDC72F1E57050A004688A8 /* Build configuration list for PBXNativeTarget "PitchDetectionUITests" */;
+			buildPhases = (
+				18FDC71C1E57050A004688A8 /* Sources */,
+				18FDC71D1E57050A004688A8 /* Frameworks */,
+				18FDC71E1E57050A004688A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18FDC7221E57050A004688A8 /* PBXTargetDependency */,
+			);
+			name = PitchDetectionUITests;
+			productName = PitchDetectionUITests;
+			productReference = 18FDC7201E57050A004688A8 /* PitchDetectionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18FDC6F41E570509004688A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = xiaokai.zhan;
+				TargetAttributes = {
+					18FDC6FB1E570509004688A8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = MY5GTD35UJ;
+						ProvisioningStyle = Automatic;
+					};
+					18FDC7141E57050A004688A8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = MY5GTD35UJ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18FDC6FB1E570509004688A8;
+					};
+					18FDC71F1E57050A004688A8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = MY5GTD35UJ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18FDC6FB1E570509004688A8;
+					};
+				};
+			};
+			buildConfigurationList = 18FDC6F71E570509004688A8 /* Build configuration list for PBXProject "PitchDetection" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18FDC6F31E570508004688A8;
+			productRefGroup = 18FDC6FD1E570509004688A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18FDC6FB1E570509004688A8 /* PitchDetection */,
+				18FDC7141E57050A004688A8 /* PitchDetectionTests */,
+				18FDC71F1E57050A004688A8 /* PitchDetectionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18FDC6FA1E570509004688A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FDC70F1E570509004688A8 /* LaunchScreen.storyboard in Resources */,
+				18FDC70C1E570509004688A8 /* Assets.xcassets in Resources */,
+				18FDC70A1E570509004688A8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FDC7131E57050A004688A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FDC71E1E57050A004688A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18FDC6F81E570509004688A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FDC7071E570509004688A8 /* ViewController.m in Sources */,
+				18FDC7041E570509004688A8 /* AppDelegate.m in Sources */,
+				18FDC7011E570509004688A8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FDC7111E57050A004688A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FDC71A1E57050A004688A8 /* PitchDetectionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FDC71C1E57050A004688A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FDC7251E57050A004688A8 /* PitchDetectionUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18FDC7171E57050A004688A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18FDC6FB1E570509004688A8 /* PitchDetection */;
+			targetProxy = 18FDC7161E57050A004688A8 /* PBXContainerItemProxy */;
+		};
+		18FDC7221E57050A004688A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18FDC6FB1E570509004688A8 /* PitchDetection */;
+			targetProxy = 18FDC7211E57050A004688A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18FDC7081E570509004688A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18FDC7091E570509004688A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18FDC70D1E570509004688A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18FDC70E1E570509004688A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18FDC7271E57050A004688A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18FDC7281E57050A004688A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18FDC72A1E57050A004688A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MY5GTD35UJ;
+				INFOPLIST_FILE = PitchDetection/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.phuket.tour.audiotoolbox.encoder.PitchDetection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18FDC72B1E57050A004688A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MY5GTD35UJ;
+				INFOPLIST_FILE = PitchDetection/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.phuket.tour.audiotoolbox.encoder.PitchDetection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18FDC72D1E57050A004688A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MY5GTD35UJ;
+				INFOPLIST_FILE = PitchDetectionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.phuket.tour.audiotoolbox.encoder.PitchDetectionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PitchDetection.app/PitchDetection";
+			};
+			name = Debug;
+		};
+		18FDC72E1E57050A004688A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MY5GTD35UJ;
+				INFOPLIST_FILE = PitchDetectionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.phuket.tour.audiotoolbox.encoder.PitchDetectionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PitchDetection.app/PitchDetection";
+			};
+			name = Release;
+		};
+		18FDC7301E57050A004688A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = MY5GTD35UJ;
+				INFOPLIST_FILE = PitchDetectionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.phuket.tour.audiotoolbox.encoder.PitchDetectionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PitchDetection;
+			};
+			name = Debug;
+		};
+		18FDC7311E57050A004688A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = MY5GTD35UJ;
+				INFOPLIST_FILE = PitchDetectionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.phuket.tour.audiotoolbox.encoder.PitchDetectionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PitchDetection;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18FDC6F71E570509004688A8 /* Build configuration list for PBXProject "PitchDetection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FDC7271E57050A004688A8 /* Debug */,
+				18FDC7281E57050A004688A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18FDC7291E57050A004688A8 /* Build configuration list for PBXNativeTarget "PitchDetection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FDC72A1E57050A004688A8 /* Debug */,
+				18FDC72B1E57050A004688A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18FDC72C1E57050A004688A8 /* Build configuration list for PBXNativeTarget "PitchDetectionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FDC72D1E57050A004688A8 /* Debug */,
+				18FDC72E1E57050A004688A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18FDC72F1E57050A004688A8 /* Build configuration list for PBXNativeTarget "PitchDetectionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FDC7301E57050A004688A8 /* Debug */,
+				18FDC7311E57050A004688A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18FDC6F41E570509004688A8 /* Project object */;
+}
