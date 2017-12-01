@@ -9,12 +9,25 @@
 /* Begin PBXBuildFile section */
 		18FDC7011E570509004688A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FDC7001E570509004688A8 /* main.m */; };
 		18FDC7041E570509004688A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FDC7031E570509004688A8 /* AppDelegate.m */; };
-		18FDC7071E570509004688A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FDC7061E570509004688A8 /* ViewController.m */; };
-		18FDC70A1E570509004688A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FDC7081E570509004688A8 /* Main.storyboard */; };
+		18FDC7071E570509004688A8 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18FDC7061E570509004688A8 /* ViewController.mm */; };
 		18FDC70C1E570509004688A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FDC70B1E570509004688A8 /* Assets.xcassets */; };
 		18FDC70F1E570509004688A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FDC70D1E570509004688A8 /* LaunchScreen.storyboard */; };
 		18FDC71A1E57050A004688A8 /* PitchDetectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FDC7191E57050A004688A8 /* PitchDetectionTests.m */; };
 		18FDC7251E57050A004688A8 /* PitchDetectionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FDC7241E57050A004688A8 /* PitchDetectionUITests.m */; };
+		18FDC7331E57056A004688A8 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18FDC7321E57056A004688A8 /* ViewController.xib */; };
+		18FDC7371E570706004688A8 /* CommonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FDC7361E570706004688A8 /* CommonUtil.m */; };
+		18FDC73A1E570AF8004688A8 /* pitch_detection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18FDC7381E570AF8004688A8 /* pitch_detection.cpp */; };
+		18FDC7541E570B06004688A8 /* c_weighting.c in Sources */ = {isa = PBXBuildFile; fileRef = 18FDC73E1E570B06004688A8 /* c_weighting.c */; };
+		18FDC7551E570B06004688A8 /* cvec.c in Sources */ = {isa = PBXBuildFile; fileRef = 18FDC7411E570B06004688A8 /* cvec.c */; };
+		18FDC7561E570B06004688A8 /* filter.c in Sources */ = {isa = PBXBuildFile; fileRef = 18FDC7431E570B06004688A8 /* filter.c */; };
+		18FDC7571E570B06004688A8 /* fvec.c in Sources */ = {isa = PBXBuildFile; fileRef = 18FDC7451E570B06004688A8 /* fvec.c */; };
+		18FDC7581E570B06004688A8 /* lvec.c in Sources */ = {isa = PBXBuildFile; fileRef = 18FDC7471E570B06004688A8 /* lvec.c */; };
+		18FDC7591E570B06004688A8 /* mathutils.c in Sources */ = {isa = PBXBuildFile; fileRef = 18FDC7491E570B06004688A8 /* mathutils.c */; };
+		18FDC75A1E570B06004688A8 /* pitchyinfft.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18FDC74C1E570B06004688A8 /* pitchyinfft.cpp */; };
+		18FDC75B1E570B06004688A8 /* fft_wrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18FDC7501E570B06004688A8 /* fft_wrapper.cpp */; };
+		18FDC75C1E570B06004688A8 /* mayer_fft.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18FDC7521E570B06004688A8 /* mayer_fft.cpp */; };
+		18FDC75F1E570C07004688A8 /* slide_window.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18FDC75D1E570C07004688A8 /* slide_window.cpp */; };
+		18FDC7621E570D46004688A8 /* 111.pcm in Resources */ = {isa = PBXBuildFile; fileRef = 18FDC7611E570D46004688A8 /* 111.pcm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +53,7 @@
 		18FDC7021E570509004688A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18FDC7031E570509004688A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		18FDC7051E570509004688A8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		18FDC7061E570509004688A8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		18FDC7091E570509004688A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18FDC7061E570509004688A8 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		18FDC70B1E570509004688A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18FDC70E1E570509004688A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18FDC7101E570509004688A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +63,37 @@
 		18FDC7201E57050A004688A8 /* PitchDetectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PitchDetectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18FDC7241E57050A004688A8 /* PitchDetectionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PitchDetectionUITests.m; sourceTree = "<group>"; };
 		18FDC7261E57050A004688A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18FDC7321E57056A004688A8 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		18FDC7351E570706004688A8 /* CommonUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonUtil.h; sourceTree = "<group>"; };
+		18FDC7361E570706004688A8 /* CommonUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonUtil.m; sourceTree = "<group>"; };
+		18FDC7381E570AF8004688A8 /* pitch_detection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pitch_detection.cpp; sourceTree = "<group>"; };
+		18FDC7391E570AF8004688A8 /* pitch_detection.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = pitch_detection.hpp; sourceTree = "<group>"; };
+		18FDC73C1E570B06004688A8 /* aubio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aubio.h; sourceTree = "<group>"; };
+		18FDC73D1E570B06004688A8 /* aubio_priv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aubio_priv.h; sourceTree = "<group>"; };
+		18FDC73E1E570B06004688A8 /* c_weighting.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = c_weighting.c; sourceTree = "<group>"; };
+		18FDC73F1E570B06004688A8 /* c_weighting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = c_weighting.h; sourceTree = "<group>"; };
+		18FDC7401E570B06004688A8 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		18FDC7411E570B06004688A8 /* cvec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cvec.c; sourceTree = "<group>"; };
+		18FDC7421E570B06004688A8 /* cvec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvec.h; sourceTree = "<group>"; };
+		18FDC7431E570B06004688A8 /* filter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = filter.c; sourceTree = "<group>"; };
+		18FDC7441E570B06004688A8 /* filter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = filter.h; sourceTree = "<group>"; };
+		18FDC7451E570B06004688A8 /* fvec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fvec.c; sourceTree = "<group>"; };
+		18FDC7461E570B06004688A8 /* fvec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fvec.h; sourceTree = "<group>"; };
+		18FDC7471E570B06004688A8 /* lvec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lvec.c; sourceTree = "<group>"; };
+		18FDC7481E570B06004688A8 /* lvec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lvec.h; sourceTree = "<group>"; };
+		18FDC7491E570B06004688A8 /* mathutils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mathutils.c; sourceTree = "<group>"; };
+		18FDC74A1E570B06004688A8 /* mathutils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mathutils.h; sourceTree = "<group>"; };
+		18FDC74B1E570B06004688A8 /* musicutils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = musicutils.h; sourceTree = "<group>"; };
+		18FDC74C1E570B06004688A8 /* pitchyinfft.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pitchyinfft.cpp; sourceTree = "<group>"; };
+		18FDC74D1E570B06004688A8 /* pitchyinfft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pitchyinfft.h; sourceTree = "<group>"; };
+		18FDC74E1E570B06004688A8 /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
+		18FDC7501E570B06004688A8 /* fft_wrapper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fft_wrapper.cpp; sourceTree = "<group>"; };
+		18FDC7511E570B06004688A8 /* fft_wrapper.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = fft_wrapper.hpp; sourceTree = "<group>"; };
+		18FDC7521E570B06004688A8 /* mayer_fft.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mayer_fft.cpp; sourceTree = "<group>"; };
+		18FDC7531E570B06004688A8 /* mayer_fft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mayer_fft.h; sourceTree = "<group>"; };
+		18FDC75D1E570C07004688A8 /* slide_window.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = slide_window.cpp; sourceTree = "<group>"; };
+		18FDC75E1E570C07004688A8 /* slide_window.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = slide_window.hpp; sourceTree = "<group>"; };
+		18FDC7611E570D46004688A8 /* 111.pcm */ = {isa = PBXFileReference; lastKnownFileType = file; path = 111.pcm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +144,21 @@
 		18FDC6FE1E570509004688A8 /* PitchDetection */ = {
 			isa = PBXGroup;
 			children = (
+				18FDC7601E570D46004688A8 /* resource */,
+				18FDC73B1E570B06004688A8 /* aubio */,
+				18FDC74F1E570B06004688A8 /* fft */,
+				18FDC7381E570AF8004688A8 /* pitch_detection.cpp */,
+				18FDC7391E570AF8004688A8 /* pitch_detection.hpp */,
+				18FDC7341E570706004688A8 /* utils */,
 				18FDC7021E570509004688A8 /* AppDelegate.h */,
 				18FDC7031E570509004688A8 /* AppDelegate.m */,
 				18FDC7051E570509004688A8 /* ViewController.h */,
-				18FDC7061E570509004688A8 /* ViewController.m */,
-				18FDC7081E570509004688A8 /* Main.storyboard */,
+				18FDC7061E570509004688A8 /* ViewController.mm */,
 				18FDC70B1E570509004688A8 /* Assets.xcassets */,
 				18FDC70D1E570509004688A8 /* LaunchScreen.storyboard */,
 				18FDC7101E570509004688A8 /* Info.plist */,
 				18FDC6FF1E570509004688A8 /* Supporting Files */,
+				18FDC7321E57056A004688A8 /* ViewController.xib */,
 			);
 			path = PitchDetection;
 			sourceTree = "<group>";
@@ -138,6 +187,62 @@
 				18FDC7261E57050A004688A8 /* Info.plist */,
 			);
 			path = PitchDetectionUITests;
+			sourceTree = "<group>";
+		};
+		18FDC7341E570706004688A8 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				18FDC7351E570706004688A8 /* CommonUtil.h */,
+				18FDC7361E570706004688A8 /* CommonUtil.m */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		18FDC73B1E570B06004688A8 /* aubio */ = {
+			isa = PBXGroup;
+			children = (
+				18FDC73C1E570B06004688A8 /* aubio.h */,
+				18FDC73D1E570B06004688A8 /* aubio_priv.h */,
+				18FDC73E1E570B06004688A8 /* c_weighting.c */,
+				18FDC73F1E570B06004688A8 /* c_weighting.h */,
+				18FDC7401E570B06004688A8 /* config.h */,
+				18FDC7411E570B06004688A8 /* cvec.c */,
+				18FDC7421E570B06004688A8 /* cvec.h */,
+				18FDC7431E570B06004688A8 /* filter.c */,
+				18FDC7441E570B06004688A8 /* filter.h */,
+				18FDC7451E570B06004688A8 /* fvec.c */,
+				18FDC7461E570B06004688A8 /* fvec.h */,
+				18FDC7471E570B06004688A8 /* lvec.c */,
+				18FDC7481E570B06004688A8 /* lvec.h */,
+				18FDC7491E570B06004688A8 /* mathutils.c */,
+				18FDC74A1E570B06004688A8 /* mathutils.h */,
+				18FDC74B1E570B06004688A8 /* musicutils.h */,
+				18FDC74C1E570B06004688A8 /* pitchyinfft.cpp */,
+				18FDC74D1E570B06004688A8 /* pitchyinfft.h */,
+				18FDC74E1E570B06004688A8 /* types.h */,
+			);
+			path = aubio;
+			sourceTree = "<group>";
+		};
+		18FDC74F1E570B06004688A8 /* fft */ = {
+			isa = PBXGroup;
+			children = (
+				18FDC75D1E570C07004688A8 /* slide_window.cpp */,
+				18FDC75E1E570C07004688A8 /* slide_window.hpp */,
+				18FDC7501E570B06004688A8 /* fft_wrapper.cpp */,
+				18FDC7511E570B06004688A8 /* fft_wrapper.hpp */,
+				18FDC7521E570B06004688A8 /* mayer_fft.cpp */,
+				18FDC7531E570B06004688A8 /* mayer_fft.h */,
+			);
+			path = fft;
+			sourceTree = "<group>";
+		};
+		18FDC7601E570D46004688A8 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				18FDC7611E570D46004688A8 /* 111.pcm */,
+			);
+			path = resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,9 +354,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18FDC7621E570D46004688A8 /* 111.pcm in Resources */,
 				18FDC70F1E570509004688A8 /* LaunchScreen.storyboard in Resources */,
+				18FDC7331E57056A004688A8 /* ViewController.xib in Resources */,
 				18FDC70C1E570509004688A8 /* Assets.xcassets in Resources */,
-				18FDC70A1E570509004688A8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +382,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18FDC7071E570509004688A8 /* ViewController.m in Sources */,
+				18FDC73A1E570AF8004688A8 /* pitch_detection.cpp in Sources */,
+				18FDC7071E570509004688A8 /* ViewController.mm in Sources */,
+				18FDC7541E570B06004688A8 /* c_weighting.c in Sources */,
+				18FDC75B1E570B06004688A8 /* fft_wrapper.cpp in Sources */,
 				18FDC7041E570509004688A8 /* AppDelegate.m in Sources */,
+				18FDC75C1E570B06004688A8 /* mayer_fft.cpp in Sources */,
+				18FDC75A1E570B06004688A8 /* pitchyinfft.cpp in Sources */,
+				18FDC7371E570706004688A8 /* CommonUtil.m in Sources */,
+				18FDC7591E570B06004688A8 /* mathutils.c in Sources */,
+				18FDC7581E570B06004688A8 /* lvec.c in Sources */,
 				18FDC7011E570509004688A8 /* main.m in Sources */,
+				18FDC75F1E570C07004688A8 /* slide_window.cpp in Sources */,
+				18FDC7551E570B06004688A8 /* cvec.c in Sources */,
+				18FDC7561E570B06004688A8 /* filter.c in Sources */,
+				18FDC7571E570B06004688A8 /* fvec.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,14 +432,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		18FDC7081E570509004688A8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				18FDC7091E570509004688A8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		18FDC70D1E570509004688A8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -427,8 +537,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MY5GTD35UJ;
 				INFOPLIST_FILE = PitchDetection/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.phuket.tour.audiotoolbox.encoder.PitchDetection;
+				PRODUCT_BUNDLE_IDENTIFIER = com.phuket.tour.audiotoolbox.encoder.AudioRecorder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -439,8 +550,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MY5GTD35UJ;
 				INFOPLIST_FILE = PitchDetection/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.phuket.tour.audiotoolbox.encoder.PitchDetection;
+				PRODUCT_BUNDLE_IDENTIFIER = com.phuket.tour.audiotoolbox.encoder.AudioRecorder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
